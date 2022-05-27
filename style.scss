@@ -255,7 +255,7 @@ body {
     }
 
     .shin-image {
-        position: relative;
+        // position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -408,12 +408,12 @@ footer {
             }
             .shin-color-box {
                 width: 75%;
-                height: 100%;
+                height: 58%;
                 right: var(--space-40);
                 .more-link {
                     font-size: var(--font-size-13);
                     bottom: calc(var(--space-30) * -1);
-                    right: 0;
+                    right: calc(var(--space-40));
                 }
             }
         }
@@ -459,7 +459,7 @@ footer {
             }
             .shin-image {
                 flex-basis: 100%;
-                margin-bottom: var(--space-20);
+                margin-bottom: var(--space-50);
                 .shin-ramyun {
                     width: 60%;
                     margin-top: 6%;
@@ -467,7 +467,7 @@ footer {
                 }
                 .shin-color-box {
                     width: 67%;
-                    // height: 40%;
+                    height: 40%;
                     right: var(--space-20);
                     z-index: -1;
                     .more-link {

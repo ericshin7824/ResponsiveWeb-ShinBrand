@@ -300,7 +300,6 @@ body {
 }
 
 .shin-contents .shin-image {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -485,13 +484,13 @@ footer .shin-social-links img:hover {
   }
   .shin-contents .shin-image .shin-color-box {
     width: 75%;
-    height: 100%;
+    height: 58%;
     right: var(--space-40);
   }
   .shin-contents .shin-image .shin-color-box .more-link {
     font-size: var(--font-size-13);
     bottom: calc(var(--space-30) * -1);
-    right: 0;
+    right: calc(var(--space-40));
   }
   footer {
     padding: var(--space-30) var(--space-40) var(--space-20);
@@ -545,7 +544,7 @@ footer .shin-social-links img:hover {
   .shin-container .shin-contents .shin-image {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
-    margin-bottom: var(--space-20);
+    margin-bottom: var(--space-50);
   }
   .shin-container .shin-contents .shin-image .shin-ramyun {
     width: 60%;
@@ -554,6 +553,7 @@ footer .shin-social-links img:hover {
   }
   .shin-container .shin-contents .shin-image .shin-color-box {
     width: 67%;
+    height: 40%;
     right: var(--space-20);
     z-index: -1;
   }
